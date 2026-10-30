@@ -26,10 +26,5 @@ screenshots/
 *.sln
 *.sw?
 
-package.json
-yarn.lock
-package-lock.json
-.oxlintrc.json
-
 # macOS
 .DS_Store
