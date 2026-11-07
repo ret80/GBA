@@ -1,4 +1,7 @@
 export { GameBoy } from "./gameboy";
+export { Gba, isGbaRom } from "./gba/gba";
+export { Arm7tdmi } from "./gba/arm7tdmi";
+export { GBA_BUTTONS } from "./gba/keypad";
 export { CPU } from "./cpu";
 export { Memory } from "./memory";
 export { PPU } from "./ppu";

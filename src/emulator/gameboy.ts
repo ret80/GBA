@@ -65,6 +65,9 @@ function decodeHeader(state: Uint8Array): StateHeader & { off: number; partsCoun
 }
 
 export class GameBoy {
+  public readonly screenWidth = 160;
+  public readonly screenHeight = 144;
+
   public cpu: CPU;
   public memory: Memory;
   public ppu: PPU;
